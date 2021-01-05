@@ -1,6 +1,7 @@
 import React from "react";
 import articleContent from "../data/content";
 import NotFoundPage from "./NotFoundPage";
+import innovationimg1 from "../data/images/InnovationInTraining/innovation-header.png";
 
 const ProjectPage = ({ match }) => {
   const name = match.params.name;
@@ -13,6 +14,10 @@ const ProjectPage = ({ match }) => {
       {article.content.map((paragraph, key) => (
         <p key={key}>{paragraph}</p>
       ))}
+      {article.img.map((path, key) => (
+        <img key={key} src={path} alt="test" />
+      ))}
+      <img src={innovationimg1} />
     </>
   );
 };

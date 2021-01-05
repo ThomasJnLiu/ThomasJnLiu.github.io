@@ -23,6 +23,10 @@ const articles = [
           interdum, nibh elit congue tellus, ac vulputate urna lorem nec nisi. Morbi id 
           consequat quam. Vivamus accumsan dui in facilisis aliquet.`,
     ],
+    img: [
+      "../data/images/InnovationInTraining/innovation-4.jpg",
+      "../data/images/InnovationInTraining/innovation-header.png",
+    ],
   },
   {
     name: "learn-node",
@@ -47,6 +51,10 @@ const articles = [
           sed lorem ultricies, eget ornare leo luctus. Morbi vehicula, nulla eu tempor 
           interdum, nibh elit congue tellus, ac vulputate urna lorem nec nisi. Morbi id 
           consequat quam. Vivamus accumsan dui in facilisis aliquet.`,
+    ],
+    img: [
+      "../data/images/InnovationInTraining/innovation-4.jpg",
+      "../data/images/InnovationInTraining/innovation-header.png",
     ],
   },
   {
