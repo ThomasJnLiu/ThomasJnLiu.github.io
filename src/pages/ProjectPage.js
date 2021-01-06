@@ -14,10 +14,17 @@ const ProjectPage = ({ match }) => {
       {article.content.map((paragraph, key) => (
         <p key={key}>{paragraph}</p>
       ))}
-      {article.img.map((path, key) => (
-        <img key={key} src={path} alt="test" />
-      ))}
-      <img src={innovationimg1} />
+      {/* {article.img.map((path, key) => (
+        <img key={key} src={process.env.PUBLIC_URL + path} alt="test" />
+      ))} */}
+
+      {/* <img src={process.env.PUBLIC_URL + "/img/innovation-4.jpg"} /> */}
+
+      {article.img
+        ? article.img.map((path, key) => (
+            <img key={key} src={process.env.PUBLIC_URL + path} alt={key} />
+          ))
+        : null}
     </>
   );
 };

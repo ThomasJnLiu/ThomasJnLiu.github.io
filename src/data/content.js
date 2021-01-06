@@ -1,3 +1,5 @@
+import innovationimg1 from "./images/InnovationInTraining/innovation-header.png";
+
 const articles = [
   {
     name: "learn-react",
@@ -24,8 +26,9 @@ const articles = [
           consequat quam. Vivamus accumsan dui in facilisis aliquet.`,
     ],
     img: [
-      "../data/images/InnovationInTraining/innovation-4.jpg",
-      "../data/images/InnovationInTraining/innovation-header.png",
+      "/img/innovation-4.jpg",
+      "/img/innovation-banner-pic.jpg",
+      "/img/innovation-header.png",
     ],
   },
   {
