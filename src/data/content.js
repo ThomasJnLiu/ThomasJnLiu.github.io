@@ -26,9 +26,9 @@ const articles = [
           consequat quam. Vivamus accumsan dui in facilisis aliquet.`,
     ],
     img: [
+      "/img/innovation-header.png",
       "/img/innovation-4.jpg",
       "/img/innovation-banner-pic.jpg",
-      "/img/innovation-header.png",
     ],
   },
   {
@@ -56,8 +56,9 @@ const articles = [
           consequat quam. Vivamus accumsan dui in facilisis aliquet.`,
     ],
     img: [
-      "../data/images/InnovationInTraining/innovation-4.jpg",
-      "../data/images/InnovationInTraining/innovation-header.png",
+      "/img/innovation-header.png",
+      "/img/innovation-4.jpg",
+      "/img/innovation-banner-pic.jpg",
     ],
   },
   {
@@ -83,6 +84,11 @@ const articles = [
           sed lorem ultricies, eget ornare leo luctus. Morbi vehicula, nulla eu tempor 
           interdum, nibh elit congue tellus, ac vulputate urna lorem nec nisi. Morbi id 
           consequat quam. Vivamus accumsan dui in facilisis aliquet.`,
+    ],
+    img: [
+      "/img/innovation-header.png",
+      "/img/innovation-4.jpg",
+      "/img/innovation-banner-pic.jpg",
     ],
   },
 ];
