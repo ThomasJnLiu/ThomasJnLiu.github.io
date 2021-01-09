@@ -40,13 +40,20 @@
 
 .more-button {
   display: inline-block;
+}
+
+.more-button a {
+  display: inline-block;
+
+  text-decoration: none;
+  color: black;
   padding: 0.75rem;
-  border: 1px #dedede solid;
+  border: 1px #d8d8d8 solid;
   border-radius: 5px;
   margin-top: 1rem;
 }
 
-.more-button a {
-  text-decoration: none;
-  color: black;
+.more-button a:hover {
+  text-decoration: underline;
+  background-color: #e9e9e9;
 }

@@ -1,5 +1,3 @@
-import innovationimg1 from "./images/InnovationInTraining/innovation-header.png";
-
 const articles = [
   {
     name: "Innovation in Training",
