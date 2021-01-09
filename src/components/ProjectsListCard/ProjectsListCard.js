@@ -1,5 +1,6 @@
 import React from "react";
 import "./ProjectsListCard.css";
+import MoreButton from "../MoreButton/MoreButton";
 
 const ProjectsListCard = ({ ProjectInfo }) => (
   <div className="projects-list-card">
@@ -11,7 +12,11 @@ const ProjectsListCard = ({ ProjectInfo }) => (
     </div>
     <div className="project-preview">
       <h1>{ProjectInfo.name}</h1>
-      <p>{ProjectInfo.content[0].substring(0, 150)}...</p>
+      <p>
+        {ProjectInfo.content[0].substring(0, 150)}...
+        <br></br>
+        <MoreButton projectName={ProjectInfo.name} />
+      </p>{" "}
     </div>
   </div>
 );

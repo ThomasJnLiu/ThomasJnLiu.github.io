@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
 .projects-list-card {
   margin-left: auto;
   margin-right: auto;
@@ -24,13 +26,27 @@
   text-align: left;
   width: 50%;
   margin-top: 1rem;
+  display: block;
 }
 .project-preview h1 {
   width: 50%;
   margin-top: 1rem;
-  font-weight: 10;
+  font-weight: 300;
 }
 .project-preview {
   display: flex;
   justify-content: space-between;
+}
+
+.more-button {
+  display: inline-block;
+  padding: 0.75rem;
+  border: 1px #dedede solid;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+
+.more-button a {
+  text-decoration: none;
+  color: black;
 }

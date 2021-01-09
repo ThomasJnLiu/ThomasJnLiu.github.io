@@ -4,7 +4,6 @@ import ProjectsListCard from "./ProjectsListCard/ProjectsListCard";
 
 const ProjectsList = ({ articles }) => (
   <>
-    <ProjectsListCard ProjectInfo={articles[0]} />
     {articles.map((article, key) => (
       <ProjectsListCard ProjectInfo={articles[key]} />
     ))}

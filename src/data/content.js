@@ -2,7 +2,7 @@ import innovationimg1 from "./images/InnovationInTraining/innovation-header.png"
 
 const articles = [
   {
-    name: "learn-react",
+    name: "Innovation in Training",
     title: "The Fastest Way to Learn React",
     content: [
       `Welcome! Today we're going to be talking about the fastest way to
