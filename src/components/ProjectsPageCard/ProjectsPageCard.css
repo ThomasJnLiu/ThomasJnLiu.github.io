@@ -1,0 +1,18 @@
+.proj-page-card p {
+  width: 45%;
+  display: inline-block;
+  margin-right: 10%;
+}
+.proj-page-card img {
+  max-width: 45%;
+  max-height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.proj-page-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0;
+}

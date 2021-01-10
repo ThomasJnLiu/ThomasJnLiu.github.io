@@ -1,7 +1,7 @@
 const articles = [
   {
     name: "Innovation in Training",
-    title: "The Fastest Way to Learn React",
+    title: "Innovation in Training",
     content: [
       `Welcome! Today we're going to be talking about the fastest way to
           learn React. We'll be discussing some topics such as proin congue

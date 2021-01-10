@@ -3,3 +3,23 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+.proj-page-title h1 {
+  display: inline-block;
+  width: 50%;
+  margin-top: 1rem;
+  color: #ab5666;
+  font-weight: 300;
+  font-size: 3rem;
+}
+
+.proj-page-title p {
+  display: inline-block;
+  width: 50%;
+  margin-top: 1.5rem;
+}
+
+.proj-page-title {
+  display: flex;
+  justify-content: space-between;
+}
