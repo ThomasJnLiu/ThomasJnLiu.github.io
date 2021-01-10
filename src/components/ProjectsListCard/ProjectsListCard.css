@@ -16,8 +16,16 @@
   max-height: auto;
 }
 
+.projects-list-card a {
+  text-decoration: none;
+  color: black;
+}
+.projects-list-card a:hover {
+  text-decoration: none;
+  color: black;
+  text-decoration: underline;
+}
 .projects-list-card .image-container {
-  /* height: 20rem; */
   width: 100%;
   overflow: hidden;
 }
@@ -33,6 +41,7 @@
   margin-top: 1rem;
   font-weight: 300;
 }
+
 .project-preview {
   display: flex;
   justify-content: space-between;
@@ -44,7 +53,6 @@
 
 .more-button a {
   display: inline-block;
-
   text-decoration: none;
   color: black;
   padding: 0.75rem;

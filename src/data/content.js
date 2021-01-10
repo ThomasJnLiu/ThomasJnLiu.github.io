@@ -1,7 +1,7 @@
 const articles = [
   {
     name: "Innovation in Training",
-    title: "Innovation in Training",
+    title: "Innovation in Training Branding",
     content: [
       `Welcome! Today we're going to be talking about the fastest way to
           learn React. We'll be discussing some topics such as proin congue
@@ -28,6 +28,8 @@ const articles = [
       "/img/innovation-4.jpg",
       "/img/innovation-banner-pic.jpg",
     ],
+    heading: ["heading 1", "heading 2", ""],
+    layout: ["0", "2", "1"],
   },
   {
     name: "learn-node",
@@ -58,6 +60,8 @@ const articles = [
       "/img/innovation-4.jpg",
       "/img/innovation-banner-pic.jpg",
     ],
+    heading: ["heading 1", "heading 2", ""],
+    layout: ["0", "2", "1"],
   },
   {
     name: "my-thoughts-on-resumes",
@@ -88,6 +92,8 @@ const articles = [
       "/img/innovation-4.jpg",
       "/img/innovation-banner-pic.jpg",
     ],
+    heading: ["heading 1", "heading 2", ""],
+    layout: ["0", "2", "1"],
   },
 ];
 

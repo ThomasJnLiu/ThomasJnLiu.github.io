@@ -7,6 +7,7 @@ const ProjectsList = ({ articles }) => (
     {articles.map((article, key) => (
       <ProjectsListCard ProjectInfo={articles[key]} />
     ))}
+
     {articles.map((article, key) => (
       <Link key={key} to={`/Projects/${article.name}`}>
         <h3>{article.title}</h3>
