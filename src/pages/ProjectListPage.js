@@ -4,7 +4,6 @@ import ProjectsList from "../components/ProjectsList";
 
 const ProjectListPage = () => (
   <>
-    <h1>Articles</h1>
     <ProjectsList articles={articleContent} />{" "}
   </>
 );
