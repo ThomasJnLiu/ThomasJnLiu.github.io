@@ -65,7 +65,8 @@ const ProjectsPageCard = ({ content, image, heading, variation }) => {
         return (
           <div className="proj-page-card-img">
             <h1>{heading}</h1>
-            <img src={process.env.PUBLIC_URL + image} />;
+            <p>{content}</p>
+            <img src={process.env.PUBLIC_URL + image} />
           </div>
         );
       }

@@ -8,7 +8,7 @@ const ProjectsListCard = ({ ProjectInfo }) => (
     <Link to={`/Projects/${ProjectInfo.name}`}>
       <div className="image-container">
         {ProjectInfo.img ? (
-          <img src={process.env.PUBLIC_URL + ProjectInfo.img[0]} />
+          <img src={process.env.PUBLIC_URL + ProjectInfo.headerImg} />
         ) : null}
         {/* <img src={process.env.PUBLIC_URL + ProjectInfo.img[0]} /> */}
       </div>{" "}

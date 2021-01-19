@@ -11,20 +11,20 @@ const HomePage = () => (
       <div className="homepage-text">
         <h1>Thomas Liu</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
-          rhoncus tortor quis lorem commodo ullamcorper. Vivamus ipsum ex,
-          dictum id pulvinar nec, dignissim vitae dui. Proin porttitor dictum
-          nisi vel posuere. Nullam eget neque orci. Sed tristique nisl ac felis
-          vulputate scelerisque. Duis vulputate et est ac ultrices. Etiam mollis
-          lacinia dignissim. Maecenas ac massa eu elit facilisis bibendum in
-          quis quam. Praesent a mi sed sapien scelerisque porta. Class aptent
-          taciti sociosqu ad litora torquent per conubia nostra, per inceptos
-          himenaeos. Sed ullamcorper auctor tellus eget dapibus. Nunc posuere,
-          elit ac cursus tristique, orci neque viverra mauris, sed cursus nunc
-          mauris in mi. Praesent non tincidunt lacus. Sed lobortis, eros eu
-          convallis tristique, ligula est mollis libero, vel euismod arcu velit
-          at sapien. Pellentesque nunc dui, sodales at vulputate et, aliquet et
-          nulla.
+          I'm a passionate front-end developer and full time student in the
+          Digital Futures program at OCAD University.
+        </p>
+        <p>
+          My journey in front-end development started with my interest in
+          design, where I began using Figma and Adobe programs such as Photoshop
+          and Illustrator. I later leveraged my graphic design background to
+          conceptualize and draft user interfaces to implement using my in-depth
+          knowledge of React, a popular front-end framework.
+        </p>
+        <p>
+          I enjoy collaborating with peers to create amazing projects, as well
+          as combining my experience with design and front-end technologies to
+          make responsive web applications.
         </p>
       </div>
     </div>

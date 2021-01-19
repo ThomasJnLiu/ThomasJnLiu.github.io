@@ -23,7 +23,6 @@ function App() {
           */}
           <Switch>
             <Route path="/" component={HomePage} exact />
-            <Route path="/About" component={AboutPage} exact />
             <Route path="/Projects" component={ProjectListPage} exact />
             <Route path="/Projects/:name" component={ProjectPage} exact />
             <Route component={NotFoundPage} />

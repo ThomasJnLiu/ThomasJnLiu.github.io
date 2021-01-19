@@ -14,7 +14,7 @@ const articles = [
         I made sure to place emphasis on the lighbulb.`,
       `Another factor to take into consideration was Ontario Power Generation's style guide. It was important that any graphics produced
         adhered to the identity of Ontario Power Generation through their use of iconography, colour, text, and layout. This can be seen in the 
-        picture to the right, where the final banner complements the design of the electronic message board.`,
+        picture to the right, where the final banner complements the design of the electronic message board while still being distinctly different.`,
       `The final deliverables of the design consisted of the "Innovation in Training" branding, a banner embodying the
       "Innovation in Training" work initiative, as well as condensed versions of the branding for use in email communications.`,
     ],
@@ -36,10 +36,10 @@ const articles = [
     layout: ["0", "1", "0", "2", "3", "3"],
   },
   {
-    name: "E-Learning User Interface Buttons",
-    title: "E-Learning User Interface Buttons",
+    name: "E-Learning User Interface",
+    title: "E-Learning User Interface",
     description:
-      "Branding, graphics, and promotional material created for Ontario Power Generation's new work initaitive.",
+      "A redesign on old UI buttons made for Ontario Power Generation's e-learning framework.",
     sideInfo: [
       "YEAR: 2020",
       "TOOLS USED: Photoshop, Illustrator, JavaScript, HTML, CSS",
@@ -51,34 +51,41 @@ const articles = [
       complaint for users with colour disabilities.`,
       `The major problem with the previous buttons (seen right) was that they failed to meet the colour contrast standards
       set by the Accessibility for Ontarians with Disabilities Act (AODA). In addition, I was also requested to redesign
-      the appearance of the new buttons to be more modern`,
-      `Etiam nec lectus urna. Sed sodales ultrices dapibus. 
-          Nam blandit tristique risus, eget accumsan nisl interdum eu. Aenean ac accumsan 
-          nisi. Nunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectus 
-          sed lorem ultricies, eget ornare leo luctus. Morbi vehicula, nulla eu tempor 
-          interdum, nibh elit congue tellus, ac vulputate urna lorem nec nisi. Morbi id 
-          consequat quam. Vivamus accumsan dui in facilisis aliquet.`,
-      `Etiam nec lectus urna. Sed sodales ultrices dapibus. 
-          Nam blandit tristique risus, eget accumsan nisl interdum eu. Aenean ac accumsan 
-          nisi. Nunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectus 
-          sed lorem ultricies, eget ornare leo luctus. Morbi vehicula, nulla eu tempor 
-          interdum, nibh elit congue tellus, ac vulputate urna lorem nec nisi. Morbi id 
-          consequat quam. Vivamus accumsan dui in facilisis aliquet.`,
-      `Etiam nec lectus urna. Sed sodales ultrices dapibus. 
-          Nam blandit tristique risus, eget accumsan nisl interdum eu. Aenean ac accumsan 
-          nisi. Nunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectus 
-          sed lorem ultricies, eget ornare leo luctus. Morbi vehicula, nulla eu tempor 
-          interdum, nibh elit congue tellus, ac vulputate urna lorem nec nisi. Morbi id 
-          consequat quam. Vivamus accumsan dui in facilisis aliquet.`,
+      the appearance of the new buttons to be more modern.`,
+      `In my first revision of the icons, I moved towards simplifying the forms of the icons. 
+        I also got rid of unnecessary extra colours in the design, as seen in the objectives and the glossary icon. While this revision
+        was a step in the right direction to making the icons look sharper, I was unhappy with the colours chosen, as the harsh
+        orange-red used for the hover state and dark blue was a drastic change from the original colours.`,
+      `As a result, many of the variations made afterwards were explorations in what colours would work.
+        I experimented with brighter variations of the old icons, as well as outlined versions, and even flat-vector drawings.
+        Throughout all these variants, the geometry and shape of the icons remained consistent.`,
+      `In the final icons, the orange hover state was darkened to create more contrast when compared to the blue used for the active
+       state. In addition, the geometry of the icons were reduced to simple shapes, as seen in the print icon. A subtle dark outline was
+       also added around the active states. Both of these changes helped the icons to be more legible, sharper, and easy to recognize.`,
+      `Throughout the process, I made sure to test the icons in the e-learning framework to look at them within the context of their use.
+        I was given access to the framework's development server, where I used HTML, CSS, and JS to replace the old icons, as well as
+        create pages specifically for testing them out. I ensured that the new icons would be cohesive with the rest of the framework
+        and all online courses.`,
     ],
-    headerImg: "/img/e-learning-buttons/icons-header.png",
+    headerImg: "/img/e-learning-buttons/icons-header2.png",
     img: [
       "",
       "/img/e-learning-buttons/icons-old.png",
-      "/img/innovation-in-training/innovation-banner-pic.jpg",
+      "/img/e-learning-buttons/icons-new-rev1.png",
+      "/img/e-learning-buttons/icons-workingdocument2.png",
+      "/img/e-learning-buttons/icons-new.png",
+      "/img/e-learning-buttons/icons-sim3.png",
+      "/img/e-learning-buttons/icons-sim4.png",
     ],
-    heading: ["Overview", "Previous Versions", ""],
-    layout: ["2", "0", "1"],
+    heading: [
+      "Overview",
+      "Objectives",
+      "First Revision",
+      "Designing Variations",
+      "Final Icons",
+      "In-Course Preview",
+    ],
+    layout: ["2", "0", "1", "0", "1", "3", "3"],
   },
   {
     name: "Generative Fireworks",
