@@ -9,9 +9,7 @@ const ProjectsPageCard = ({ content, image, heading, variation }) => {
           <div className="proj-page-card">
             <div className="proj-page-card-text">
               <h1>{heading}</h1>
-              <p>
-                {variation} + {content}
-              </p>
+              <p>{content}</p>
             </div>
             <img src={process.env.PUBLIC_URL + image} />
           </div>
@@ -20,9 +18,7 @@ const ProjectsPageCard = ({ content, image, heading, variation }) => {
       return (
         <div className="proj-page-card">
           <div className="proj-page-card-text">
-            <p>
-              {variation} + {content}
-            </p>
+            <p>{content}</p>
           </div>
           <img src={process.env.PUBLIC_URL + image} />
         </div>
@@ -35,9 +31,7 @@ const ProjectsPageCard = ({ content, image, heading, variation }) => {
             <img src={process.env.PUBLIC_URL + image} />
             <div className="proj-page-card-text">
               <h1>{heading}</h1>
-              <p>
-                {variation} + {content}
-              </p>
+              <p>{content}</p>
             </div>
           </div>
         );
@@ -46,9 +40,7 @@ const ProjectsPageCard = ({ content, image, heading, variation }) => {
         <div className="proj-page-card">
           <img src={process.env.PUBLIC_URL + image} />
           <div className="proj-page-card-text">
-            <p>
-              {variation} + {content}
-            </p>
+            <p>{content}</p>
           </div>
         </div>
       );
@@ -58,17 +50,13 @@ const ProjectsPageCard = ({ content, image, heading, variation }) => {
         return (
           <div className="proj-page-card-text-2">
             <h1>{heading}</h1>
-            <p>
-              {variation} + {content}
-            </p>
+            <p>{content}</p>
           </div>
         );
       }
       return (
         <div className="proj-page-card-text-2">
-          <p>
-            {variation} + {content}
-          </p>
+          <p>{content}</p>
         </div>
       );
 

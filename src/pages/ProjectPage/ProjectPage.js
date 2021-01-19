@@ -13,14 +13,15 @@ const ProjectPage = ({ match }) => {
       <div className="content proj-page">
         <img
           className="proj-page-header-img"
-          src={process.env.PUBLIC_URL + article.img[0]}
+          src={process.env.PUBLIC_URL + article.headerImg}
         />
         <div className="proj-page-title">
           <h1>{article.title}</h1>
-          <p>
-            YEAR: 2018 <br /> TOOLS USED: placeholder <br />
-            TEAM: placeholder
-          </p>
+          <div className="proj-page-side-info">
+            {article.sideInfo.map((sideInfo, key) => (
+              <p>{article.sideInfo[key]}</p>
+            ))}
+          </div>
         </div>
         {article.layout.map((layout, key) => (
           <ProjectsPageCard
@@ -30,36 +31,6 @@ const ProjectPage = ({ match }) => {
             variation={article.layout[key]}
           />
         ))}
-        {/* <ProjectsPageCard
-          content={article.content[0]}
-          image={article.img[0]}
-          heading={article.heading[0]}
-          variation={article.layout[0]}
-        />
-        <ProjectsPageCard
-          content={article.content[1]}
-          image={article.img[1]}
-          heading={article.heading[1]}
-          variation={article.layout[1]}
-        />
-        <ProjectsPageCard
-          content={article.content[2]}
-          image={article.img[2]}
-          heading={article.heading[2]}
-          variation={article.layout[2]}
-        /> */}
-        {article.content.map((paragraph, key) => (
-          <p key={key}>{paragraph}</p>
-        ))}
-        {/* {article.img.map((path, key) => (
-        <img key={key} src={process.env.PUBLIC_URL + path} alt="test" />
-      ))} */}
-        {/* <img src={process.env.PUBLIC_URL + "/img/innovation-4.jpg"} /> */}
-        {/* {article.img
-          ? article.img.map((path, key) => (
-              <img key={key} src={process.env.PUBLIC_URL + path} alt={key} />
-            ))
-          : null} */}
       </div>
     </>
   );

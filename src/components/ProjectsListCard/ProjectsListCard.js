@@ -16,7 +16,7 @@ const ProjectsListCard = ({ ProjectInfo }) => (
     <div className="project-preview">
       <h1>{ProjectInfo.name}</h1>
       <p>
-        {ProjectInfo.content[0].substring(0, 150)}...
+        {ProjectInfo.description}
         <br></br>
         <MoreButton projectName={ProjectInfo.name} />
       </p>{" "}

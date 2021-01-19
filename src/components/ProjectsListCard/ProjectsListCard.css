@@ -15,7 +15,9 @@
   max-width: 100%;
   max-height: auto;
 }
-
+.image-container img:hover {
+  filter: brightness(50%);
+}
 .projects-list-card a {
   text-decoration: none;
   color: black;

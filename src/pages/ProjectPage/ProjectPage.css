@@ -3,6 +3,7 @@
   width: 80%;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 5rem;
 }
 
 .proj-page-title h1 {
@@ -15,10 +16,6 @@
 }
 
 .proj-page-title p {
-  display: inline-block;
-  width: 50%;
-  margin-top: 1.5rem;
-  font-weight: bold;
 }
 
 .proj-page-title {
@@ -35,4 +32,16 @@
   display: block;
   /* object-fit: cover;
   overflow: hidden; */
+}
+
+.proj-page-side-info {
+  display: inline-block;
+  width: 50%;
+  margin-top: 1.5rem;
+  font-weight: bold;
+}
+
+.proj-page-side-info p {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
