@@ -9,7 +9,20 @@ const HomePage = () => (
       </div>
 
       <div className="homepage-text">
-        <h1>Thomas Liu</h1>
+        <div className="title">
+          <h1>Thomas Liu</h1>
+          <div>
+            <a href="https://github.com/ThomasJnLiu" target="_blank">
+              <img src={process.env.PUBLIC_URL + "/img/GitHub-icon.png"} />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/thomas-jn-liu/"
+              target="_blank"
+            >
+              <img src={process.env.PUBLIC_URL + "/img/Linkedin-icon.png"} />
+            </a>
+          </div>
+        </div>
         <p>
           I'm a passionate front-end developer and full time student in the
           Digital Futures program at OCAD University.
@@ -26,6 +39,7 @@ const HomePage = () => (
           as combining my experience with design and front-end technologies to
           make responsive web applications.
         </p>
+        <p></p>
       </div>
     </div>
   </>

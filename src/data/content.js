@@ -1,40 +1,109 @@
 const articles = [
   {
-    name: "Innovation in Training",
-    title: "Innovation in Training Branding",
+    name: "Shopify Developer Challenge",
+    title: "Shopify Developer Challenge",
     description:
-      "Branding, graphics, and promotional material created for Ontario Power Generation's new work initaitive.",
-    sideInfo: ["YEAR: 2019", "TOOLS USED: Photoshop, Illustrator"],
-    content: [
-      `During my internship at Ontario Power Generation I created branding for a work initiative, named "Innovation in Training".
-        In addition to making graphics for the work initiative, I designed a vertical vinyl banner that features the branding for
-        use in trade shows.`,
-      `One element that was chosen to be central to the branding was the lightbulb, since it represented innovation and could
-        consequently be seen as a summary of the values the initative stood for. While drafting the first concepts in Illustrator,
-        I made sure to place emphasis on the lighbulb.`,
-      `Another factor to take into consideration was Ontario Power Generation's style guide. It was important that any graphics produced
-        adhered to the identity of Ontario Power Generation through their use of iconography, colour, text, and layout. This can be seen in the 
-        picture to the right, where the final banner complements the design of the electronic message board while still being distinctly different.`,
-      `The final deliverables of the design consisted of the "Innovation in Training" branding, a banner embodying the
-      "Innovation in Training" work initiative, as well as condensed versions of the branding for use in email communications.`,
+      "My project for Shopify's 2021  Developer Intern Challenge, a front-end movie nomination app built using React with data provided by the OMDB API.",
+    sideInfo: [
+      "YEAR: 2021",
+      "TOOLS USED: React, JavaScript, HTML, CSS, Photoshop, Figma",
     ],
-    headerImg: "/img/innovation-in-training/innovation-header.png",
+
+    content: [
+      `For Shopify's 2021 Summer UX Developer & Web Developer Intern Challenge, the prompt was to build an app for Shopify's movie nomination service, "The Shoppies".
+        It was required to use the OMDB API to serve search results to the user, and for the user to nominate 5 movies. Other technical specifications
+        included being able to add and remove movies from the nomination list, disabling nomination buttons of already nominated movies, as well as 
+        letting the user know when they've nominated 5 movies.`,
+      `I began by drafting designs for web user interface in Figma. I wanted to make the link to Shopify's brand obvious, so the colour green was 
+        chosen as a secondary colour. To further reinforce the link to Shopify, I created a quick mockup of a movie-based Shopify logo in Photoshop.`,
+      `I heavily referenced Google's Material Design guidelines while brainstorming, and eventually settled on a card-based method for displaying the movie results.
+        I decided to divide the main content of the page between the movies grid and the nominations panel, the latter of which would follow the user
+        as they scrolled through the page. Users would click on the green button below each movie to nominate it, and it be added to the 
+        nominations panel on the right. By taking these steps, I ensured the finalized design would be visually sharp and easy to navigate.`,
+      `In order to make the design responsive, I also planned for a mobile variant of the user interface. Many elements that were previously side-by-side, such as the
+        nominations panel and movie cards, were rearranged on top of each other to account for the decrease in horizontal space.`,
+      `Before coding any components, I made a basic search box to communicate with the OMDB API using the Axios client, to make sure I could submit queries and receive
+        information correctly. After I confirmed the API was being called correctly, I moved to implementing the user interface in React. While using Figma, I intentionally made self-contained
+        elements with clear boundaries so they would be easy to code, such as the nominations box, the movie cards, and header. Once the components and 
+        functionality were in place, I styled the app using CSS and added media queries to ensure a responsive design.`,
+      `Before finishing my project, I made some minor touch-ups and included a link to the repo in the header, a pop-up
+        when the user submits their nominations, and a favicon. The nominations panel was also aligned to the left to occupy the empty space before the user
+        has made a search.`,
+      `The final project can be accessed at: https://thomasjnliu.github.io/Shopify-Design-Challenge-2021/ `,
+    ],
+    headerImg: "/img/shopify-design-challenge/shopify-header2.png",
     img: [
-      "/img/innovation-in-training/innovation-header.png",
-      "/img/innovation-in-training/innovation-3.png",
-      "/img/innovation-in-training/innovation-banner-pic.jpg",
       "",
-      "/img/innovation-in-training/innovation-logo.png",
-      "/img/innovation-in-training/innovation-banner.png",
+      "/img/shopify-design-challenge/logo.png",
+      "/img/shopify-design-challenge/shopify-figma.png",
+      "/img/shopify-design-challenge/shopify-figma2.png",
+      "/img/shopify-design-challenge/shopify2.png",
+      "/img/shopify-design-challenge/shopify3.png",
     ],
     heading: [
       "Overview",
-      "Central Iconography",
-      "Considering Design Language",
+      "First Steps",
+      "Using Material Design",
+      "Planning a Responsive UI",
+      "From Figma to React",
+      "Finishing Touches",
       "Final Product",
     ],
-    layout: ["0", "1", "0", "2", "3", "3"],
+    layout: ["2", "0", "1", "0", "1", "3", "2"],
   },
+  // {
+  //   name: "Online Course Exam Page Redesign",
+  //   title: "Online Course Exam Page Redesign",
+  //   description:
+  //     "A redesign on old UI buttons made for Ontario Power Generation's e-learning framework.",
+  //   sideInfo: [
+  //     "YEAR: 2020",
+  //     "TOOLS USED: Photoshop, Illustrator, JavaScript, HTML, CSS",
+  //   ],
+
+  //   content: [
+  //     `During my internship at Ontario Power Generation, I was tasked with updating their e-learning
+  //     framework's user interface buttons to increase accessibility by making them
+  //     complaint for users with colour disabilities.`,
+  //     `The major problem with the previous buttons (seen right) was that they failed to meet the colour contrast standards
+  //     set by the Accessibility for Ontarians with Disabilities Act (AODA). In addition, I was also requested to redesign
+  //     the appearance of the new buttons to be more modern.`,
+  //     `In my first revision of the icons, I moved towards simplifying the forms of the icons.
+  //       I also got rid of unnecessary extra colours in the design, as seen in the objectives and the glossary icon. While this revision
+  //       was a step in the right direction to making the icons look sharper, I was unhappy with the colours chosen, as the harsh
+  //       orange-red used for the hover state and dark blue was a drastic change from the original colours.`,
+  //     `As a result, many of the variations made afterwards were explorations in what colours would work.
+  //       I experimented with brighter variations of the old icons, as well as outlined versions, and even flat-vector drawings.
+  //       Throughout all these variants, the geometry and shape of the icons remained consistent.`,
+  //     `In the final icons, the orange hover state was darkened to create more contrast when compared to the blue used for the active
+  //      state. In addition, the geometry of the icons were reduced to simple shapes, as seen in the print icon. A subtle dark outline was
+  //      also added around the active states. Both of these changes helped the icons to be more legible, sharper, and easy to recognize.`,
+  //     `Throughout the process, I made sure to test the icons in the e-learning framework to look at them within the context of their use.
+  //       I was given access to the framework's development server, where I used HTML, CSS, and JS to replace the old icons, as well as
+  //       create pages specifically for testing them out. I ensured that the new icons would be cohesive with the rest of the framework
+  //       and all online courses.`,
+  //   ],
+  //   headerImg: "/img/e-learning-buttons/icons-header2.png",
+  //   img: [
+  //     "",
+  //     "/img/e-learning-buttons/icons-old.png",
+  //     "/img/e-learning-buttons/icons-new-rev1.png",
+  //     "/img/e-learning-buttons/icons-workingdocument2.png",
+  //     "/img/e-learning-buttons/icons-new.png",
+  //     "/img/e-learning-buttons/icons-sim3.png",
+  //     "/img/e-learning-buttons/icons-sim4.png",
+  //   ],
+  //   heading: [
+  //     "Overview",
+  //     "Objectives",
+  //     "First Revision",
+  //     "Designing Variations",
+  //     "Final Icons",
+  //     "In-Course Preview",
+  //   ],
+  //   layout: ["2", "0", "1", "0", "1", "3", "3"],
+  // },
+
   {
     name: "E-Learning User Interface",
     title: "E-Learning User Interface",
@@ -62,7 +131,7 @@ const articles = [
       `In the final icons, the orange hover state was darkened to create more contrast when compared to the blue used for the active
        state. In addition, the geometry of the icons were reduced to simple shapes, as seen in the print icon. A subtle dark outline was
        also added around the active states. Both of these changes helped the icons to be more legible, sharper, and easy to recognize.`,
-      `Throughout the process, I made sure to test the icons in the e-learning framework to look at them within the context of their use.
+      `Throughout the process, I tested the icons in the e-learning framework in order to evaluate them within the context of their use.
         I was given access to the framework's development server, where I used HTML, CSS, and JS to replace the old icons, as well as
         create pages specifically for testing them out. I ensured that the new icons would be cohesive with the rest of the framework
         and all online courses.`,
@@ -86,6 +155,41 @@ const articles = [
       "In-Course Preview",
     ],
     layout: ["2", "0", "1", "0", "1", "3", "3"],
+  },
+  {
+    name: "Innovation in Training",
+    title: "Innovation in Training Branding",
+    description:
+      "Branding, graphics, and promotional material created for Ontario Power Generation's new work initaitive.",
+    sideInfo: ["YEAR: 2019", "TOOLS USED: Photoshop, Illustrator"],
+    content: [
+      `During my internship at Ontario Power Generation I created branding for a work initiative, named "Innovation in Training".
+        In addition, I designed a vertical vinyl banner that features the branding for use in trade shows.`,
+      `One element central to the branding was the lightbulb, since it represented innovation and could
+        consequently be seen as a summary of the values the initative stood for. While drafting the first concepts in Illustrator,
+        I made sure to place emphasis on the lighbulb.`,
+      `Another factor to take into consideration was Ontario Power Generation's style guide. It was important that any graphics produced
+        adhered to the identity of Ontario Power Generation through their use of iconography, colour, text, and layout. This can be seen in the 
+        picture to the right, where the final banner complements the design of the electronic message board while still being distinctly different.`,
+      `The final deliverables of the project consisted of the "Innovation in Training" branding, a banner embodying the
+      "Innovation in Training" work initiative, as well as condensed versions of the branding for use in email communications.`,
+    ],
+    headerImg: "/img/innovation-in-training/innovation-header.png",
+    img: [
+      "/img/innovation-in-training/innovation-header.png",
+      "/img/innovation-in-training/innovation-3.png",
+      "/img/innovation-in-training/innovation-banner-pic.jpg",
+      "",
+      "/img/innovation-in-training/innovation-logo.png",
+      "/img/innovation-in-training/innovation-banner.png",
+    ],
+    heading: [
+      "Overview",
+      "Central Iconography",
+      "Considering Design Language",
+      "Final Product",
+    ],
+    layout: ["0", "1", "0", "2", "3", "3"],
   },
   {
     name: "Generative Fireworks",

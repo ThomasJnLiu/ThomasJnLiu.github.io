@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Resume from "../documents/Liu_Thomas_Resume_2021.pdf";
 
 const NavBar = () => (
   <nav className="navbar">
@@ -13,7 +14,9 @@ const NavBar = () => (
         <Link to="/Projects">Projects</Link>
       </li>
       <li>
-        <Link to="/About">Résumé</Link>
+        <a href={Resume} targe="_blank">
+          Résumé
+        </a>
       </li>
     </ul>
   </nav>

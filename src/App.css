@@ -70,5 +70,16 @@ nav a:hover {
 }
 
 .homepage-text h1 {
+  display: inline;
   color: #ad686a;
+}
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title img {
+  display: inline-block;
+  margin-left: 1rem;
 }
