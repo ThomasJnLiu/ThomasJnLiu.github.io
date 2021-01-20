@@ -1,5 +1,6 @@
 import React from "react";
 import { HashRouter as Router, Route, Switch } from "react-router-dom";
+import { Helmet } from "react-helmet";
 import "./App.css";
 import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
@@ -14,6 +15,9 @@ function App() {
     <Router>
       <ScrollToTop />
       <div className="App">
+        <Helmet>
+          <title>Thomas Liu</title>
+        </Helmet>
         <NavBar />
         <div className="content">
           {/*
