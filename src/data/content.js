@@ -51,58 +51,53 @@ const articles = [
     ],
     layout: ["2", "0", "1", "0", "1", "3", "2"],
   },
-  // {
-  //   name: "Online Course Exam Page Redesign",
-  //   title: "Online Course Exam Page Redesign",
-  //   description:
-  //     "A redesign on old UI buttons made for Ontario Power Generation's e-learning framework.",
-  //   sideInfo: [
-  //     "YEAR: 2020",
-  //     "TOOLS USED: Photoshop, Illustrator, JavaScript, HTML, CSS",
-  //   ],
+  {
+    name: "Online Exam Page Redesign",
+    title: "Online Exam Page Redesign",
+    description:
+      "A front-end responsive redesign of Ontario Power Generation's e-learning exam pages.",
+    sideInfo: ["YEAR: 2020", "TOOLS USED: Figma, JavaScript, HTML, CSS"],
 
-  //   content: [
-  //     `During my internship at Ontario Power Generation, I was tasked with updating their e-learning
-  //     framework's user interface buttons to increase accessibility by making them
-  //     complaint for users with colour disabilities.`,
-  //     `The major problem with the previous buttons (seen right) was that they failed to meet the colour contrast standards
-  //     set by the Accessibility for Ontarians with Disabilities Act (AODA). In addition, I was also requested to redesign
-  //     the appearance of the new buttons to be more modern.`,
-  //     `In my first revision of the icons, I moved towards simplifying the forms of the icons.
-  //       I also got rid of unnecessary extra colours in the design, as seen in the objectives and the glossary icon. While this revision
-  //       was a step in the right direction to making the icons look sharper, I was unhappy with the colours chosen, as the harsh
-  //       orange-red used for the hover state and dark blue was a drastic change from the original colours.`,
-  //     `As a result, many of the variations made afterwards were explorations in what colours would work.
-  //       I experimented with brighter variations of the old icons, as well as outlined versions, and even flat-vector drawings.
-  //       Throughout all these variants, the geometry and shape of the icons remained consistent.`,
-  //     `In the final icons, the orange hover state was darkened to create more contrast when compared to the blue used for the active
-  //      state. In addition, the geometry of the icons were reduced to simple shapes, as seen in the print icon. A subtle dark outline was
-  //      also added around the active states. Both of these changes helped the icons to be more legible, sharper, and easy to recognize.`,
-  //     `Throughout the process, I made sure to test the icons in the e-learning framework to look at them within the context of their use.
-  //       I was given access to the framework's development server, where I used HTML, CSS, and JS to replace the old icons, as well as
-  //       create pages specifically for testing them out. I ensured that the new icons would be cohesive with the rest of the framework
-  //       and all online courses.`,
-  //   ],
-  //   headerImg: "/img/e-learning-buttons/icons-header2.png",
-  //   img: [
-  //     "",
-  //     "/img/e-learning-buttons/icons-old.png",
-  //     "/img/e-learning-buttons/icons-new-rev1.png",
-  //     "/img/e-learning-buttons/icons-workingdocument2.png",
-  //     "/img/e-learning-buttons/icons-new.png",
-  //     "/img/e-learning-buttons/icons-sim3.png",
-  //     "/img/e-learning-buttons/icons-sim4.png",
-  //   ],
-  //   heading: [
-  //     "Overview",
-  //     "Objectives",
-  //     "First Revision",
-  //     "Designing Variations",
-  //     "Final Icons",
-  //     "In-Course Preview",
-  //   ],
-  //   layout: ["2", "0", "1", "0", "1", "3", "3"],
-  // },
+    content: [
+      `During my internship at Ontario Power Generation, I was tasked with redesigning their e-learning exam page. This page would 
+        appear at the end of each course, testing the user on the content they learned. The format of the page remained consistent,
+        with only the question changing. The redesign would need to keep the functionality of the old version while improving
+        on its shortcomings.`,
+      `One of the flaws of the original design I focused in on was the lack of responsive design. The old design (seen right) was built
+        for 4:3 aspect ratios and did not resize to fit 16:9 screens. This resulted in a large amount of empty space and often made
+        text difficult to read.`,
+      `Since the functionality wouldn't change in the redesign, I first began by mapping out the user flow of the old version so that
+        I could mimic it in the redesign. This included different screens if the user picked the right/wrong answer, as well as a button
+        to submit the exam when all questions are answered.`,
+      `I used Figma to create a basic redesigned exam template page. I focused on designing a responsive page that could resize to fit
+        both 4:3 and 16:9 aspect ratios. I also used flat colours and simple shapes to make it look more modern and legible.
+        In addition, I made sure the design was flexible, that it would be able to resize to long answers and questions.`,
+      `While the appearance of the design is important, I also wanted to consider how it felt to interact with the interface. I used
+        Figma's prototyping function to add interactivity to my designs to mimic the user flow. This way, anyone who was reviewing my design
+        would have an idea of how a typical user would interact with it.`,
+      `After seeing the possible paths the user could take in the old design to complete the test, I used the template to mirror all the paths in
+        the redesigned version. I then moved to creating a mockup of the page in HTML, so that I could test out responsiveness as well as finalize 
+        the user flow.`,
+    ],
+    headerImg: "/img/exam-redesign/redesign-header.png",
+    img: [
+      "",
+      "/img/exam-redesign/old-img.png",
+      "/img/exam-redesign/old-userflow.png",
+      "/img/exam-redesign/new-img4.png",
+      "/img/exam-redesign/new-img3.png",
+      "/img/exam-redesign/new-userflow.png",
+    ],
+    heading: [
+      "Overview",
+      "Pain Points",
+      "Mapping User Flow",
+      "Designing in Figma",
+      "Figma Interactive Prototype",
+      "Final Design and User Flow",
+    ],
+    layout: ["2", "0", "3", "1", "3", "3"],
+  },
 
   {
     name: "E-Learning User Interface",
@@ -136,7 +131,7 @@ const articles = [
         create pages specifically for testing them out. I ensured that the new icons would be cohesive with the rest of the framework
         and all online courses.`,
     ],
-    headerImg: "/img/e-learning-buttons/icons-header2.png",
+    headerImg: "/img/e-learning-buttons/icons-header3.png",
     img: [
       "",
       "/img/e-learning-buttons/icons-old.png",
