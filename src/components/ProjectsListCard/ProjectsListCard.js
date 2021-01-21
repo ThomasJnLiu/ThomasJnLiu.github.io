@@ -14,12 +14,15 @@ const ProjectsListCard = ({ ProjectInfo }) => (
       </div>{" "}
     </Link>
     <div className="project-preview">
-      <h1>{ProjectInfo.name}</h1>
+      <div className="project-title">
+        <h1>{ProjectInfo.name}</h1>
+        <p>{ProjectInfo.sideInfo[0]}</p>
+      </div>
       <p>
         {ProjectInfo.description}
         <br></br>
         <MoreButton projectName={ProjectInfo.name} />
-      </p>{" "}
+      </p>
     </div>
   </div>
 );
