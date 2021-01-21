@@ -3,7 +3,7 @@
 .projects-list-card {
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 80%;
   margin-bottom: 10rem;
 }
 .projects-list-card h1 {
@@ -73,4 +73,27 @@
 .more-button a:hover {
   text-decoration: underline;
   background-color: #e9e9e9;
+}
+
+@media (max-width: 1200px) {
+  .projects-list-card {
+    width: 70%;
+  }
+}
+
+@media (max-width: 800px) {
+  .projects-list-card {
+    width: 100%;
+  }
+  .project-title {
+    display: block;
+    width: 100%;
+  }
+  .project-preview {
+    display: block;
+  }
+  .project-preview p {
+    width: 100%;
+    margin-left: 0;
+  }
 }
