@@ -96,4 +96,12 @@
     width: 100%;
     margin-left: 0;
   }
+  .projects-list-card h1 {
+    display: inline-block;
+    font-size: 1.75rem;
+  }
+
+  .project-title p {
+    font-size: 0.9rem;
+  }
 }

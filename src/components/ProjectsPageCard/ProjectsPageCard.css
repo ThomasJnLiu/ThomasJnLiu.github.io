@@ -60,4 +60,9 @@
   .proj-page-card {
     display: block;
   }
+
+  .proj-page-card-text-2 p,
+  .proj-page-card-text p {
+    font-size: 0.9rem;
+  }
 }
