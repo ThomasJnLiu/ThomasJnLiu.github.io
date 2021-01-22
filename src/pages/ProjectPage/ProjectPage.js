@@ -10,7 +10,7 @@ const ProjectPage = ({ match }) => {
   if (!article) return <NotFoundPage />;
   return (
     <>
-      <div className="content proj-page">
+      <div className="proj-page">
         <img
           className="proj-page-header-img"
           src={process.env.PUBLIC_URL + article.headerImg}

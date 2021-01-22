@@ -51,10 +51,14 @@
   }
 }
 @media (max-width: 800px) {
+  .content {
+    width: 90%;
+  }
   .projects-list-card h1 {
     display: inline-block;
   }
   .proj-page-title h1 {
+    font-size: 1.75rem;
     width: 100%;
     display: block;
     margin-bottom: 0.1rem;
@@ -65,5 +69,12 @@
   .proj-page-side-info {
     margin-top: 0.5rem;
     width: 100%;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .proj-page-side-info p {
+    font-size: 0.9rem;
   }
 }
