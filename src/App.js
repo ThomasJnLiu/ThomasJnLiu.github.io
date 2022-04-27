@@ -3,7 +3,7 @@ import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import "./App.css";
 import HomePage from "./pages/HomePage";
-import AboutPage from "./pages/AboutPage";
+import OAAPage from "./pages/OAAPage";
 import NavBar from "./components/NavBar";
 import ProjectListPage from "./pages/ProjectListPage";
 import ProjectPage from "./pages/ProjectPage/ProjectPage";
@@ -23,13 +23,16 @@ function App() {
           {/*
             gh-pages doesn't natively support spa, I had some issues implementing the solution found here:
             https://github.com/rafgraph/spa-github-pages and had to go with the messier workaround of using hashrouter.
-            Future Thomas, please fix
           */}
           <Switch>
             <Route path="/" component={HomePage} exact />
             <Route path="/Projects" component={ProjectListPage} exact />
-            <Route path="/Projects/:name" component={ProjectPage} exact />
-            <Route component={NotFoundPage} />
+            <Route
+              path="/Projects/OCAD%20Artist%20Alley%20Site%202"
+              component={OAAPage}
+            />
+            {/* <Route path="/Projects/:name" component={ProjectPage} exact /> */}
+            <Route component={OAAPage} />
           </Switch>
         </div>
       </div>

@@ -1,5 +1,35 @@
 const articles = [
   {
+    name: "OCAD Artist Alley Site",
+    title: "OCAD Artist Alley Site",
+    description:
+      "Single Page Application for hosting student works made with React and Firebase.",
+    sideInfo: ["YEAR: 2021", "React, Firebase, Figma, Heroku"],
+    content: [
+      `Students attending OCAD University have the option to participate in the student-run pop-up market known as the OCAD Artist Alley (OAA), which was created to allow students to exhibit and sell their work.However, due to the pandemic, the OAA was forced to move online, and a website was hastily constructed in order to provide a venue to sell student works. The current OAA website is a modified Tumblr blog, which comes with several disadvantages, such as no functionality for vendors to upload and modify their own listings, as well as multiple design oddities that are a result of trying to transform a personal blog into an e-commerce site. `,
+      `My project is a rebuilt version of the OCAD Artist Alley website. It seeks to address the major shortcoming of the original OCAD Artist Alley website, being unable to allow vendors to upload, modify, or delete their own listings. As a result of this project, there is a more accessible, easy to use portal for OCADU students to sell their works.`,
+      `I created layouts in figma to declare a consistent design for the final website, helping me decide topics such as the layout of the site, design of the product cards, displaying product filters, and vendor sign-in. These are all central features since the beginning of this project that have now found a place in the redesign.`,
+      `After creating the layouts, I used React with Chakra UI components to build the site. To handle user authentication and data storage, I used Firebase and made requests to it through its API. The app was deployed using Heroku. This project offers a more streamlined process to be part of the OCAD Artist Alley website. Vendors will no longer need to send an email to an administrator, who would manually add their listings to the website, vendors can now sign in and upload their own listings.`,
+      `The final project can be accessed at: https://ocad-artist-alley.herokuapp.com/`,
+    ],
+    headerImg: "/img/ocad-artist-alley/artist-alley-1.png",
+    img: [
+      "/img/generative-fireworks/fireworks-6.png",
+      "/img/ocad-artist-alley/artist-alley-2.png",
+      "/img/ocad-artist-alley/artist-alley-3.png",
+      "/img/ocad-artist-alley/artist-alley-4.png",
+      "/img/ocad-artist-alley/artist-alley-1.png",
+    ],
+    heading: [
+      "Overview",
+      "The Changes",
+      "Creating Layouts in Figma",
+      "Developing the Site",
+      "Final Product",
+    ],
+    layout: ["2", "1", "0", "1", "3"],
+  },
+  {
     name: "Shopify Developer Challenge",
     title: "Shopify Developer Challenge",
     description:
