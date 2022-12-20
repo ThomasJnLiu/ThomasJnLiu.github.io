@@ -27,12 +27,7 @@ function App() {
           <Switch>
             <Route path="/" component={HomePage} exact />
             <Route path="/Projects" component={ProjectListPage} exact />
-            <Route
-              path="/Projects/OCAD%20Artist%20Alley%20Site%202"
-              component={OAAPage}
-            />
-            {/* <Route path="/Projects/:name" component={ProjectPage} exact /> */}
-            <Route component={OAAPage} />
+            <Route path="/Projects/:name" component={ProjectPage} exact />
           </Switch>
         </div>
       </div>

@@ -1,7 +1,7 @@
 import React from "react";
 
 const OAAPage = () => {
-  const sideInfo = ["YEAR: 2021", "React, Firebase, Figma, Heroku"];
+  const sideInfo = ["YEAR: 2022", "React, Firebase, Figma, Heroku"];
   return (
     <>
       <div className="proj-page">
@@ -196,6 +196,21 @@ const OAAPage = () => {
             }
           />
         </div>
+      </div>
+      <div className="proj-page-card-text">
+        <h1>Links</h1>
+        <p>
+          The final deployment can be found at:{" "}
+          <a href="https://ocad-artist-alley.herokuapp.com/" target=" ">
+            https://ocad-artist-alley.herokuapp.com/
+          </a>
+        </p>
+        <p>
+          The repository can be found at:{" "}
+          <a href="https://github.com/ThomasJnLiu/ocad-artist-alley" target=" ">
+            https://github.com/ThomasJnLiu/ocad-artist-alley
+          </a>
+        </p>
       </div>
     </>
   );
