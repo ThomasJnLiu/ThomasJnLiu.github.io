@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Resume from "../documents/Liu_Thomas_Resume_2021.pdf";
+import Resume from "../documents/Liu_Thomas_Resume.pdf";
 
 const NavBar = () => (
   <nav className="navbar">
