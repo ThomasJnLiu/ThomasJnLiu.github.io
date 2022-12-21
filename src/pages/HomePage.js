@@ -24,8 +24,8 @@ const HomePage = () => (
           </div>
         </div>
         <p>
-          I'm a passionate front-end developer and full time student in the
-          Digital Futures program at OCAD University.
+          I'm a passionate front-end developer with a vested interest in
+          designing and creating responsive web apps.
         </p>
         <p>
           My journey in front-end development started with my interest in
